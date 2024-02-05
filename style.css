@@ -745,18 +745,7 @@ line-height: 25px;
     font-weight: 600;
     color: #000;
 }
-.offer{
-font-size: 20px;
-padding-bottom: 0px;
-}
-.offer-detail{
-    font-size: 30px;
-    line-height: 32px;
-}
-.product_detail{
-    font-size: 30px;
-    line-height: 30px;
-}
+
 
 @media(max-width:806px){
     .div{
@@ -769,6 +758,7 @@ padding-bottom: 0px;
     .offer{
         font-size: 20px !important;
         padding-bottom: 0px !important;
+        color: blue !important;
         }
         .offer-detail{
             font-size: 30px !important;
