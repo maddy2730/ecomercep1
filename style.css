@@ -266,10 +266,9 @@ display: flex;
 padding:30px;
 flex-direction: column;
 justify-content: center;
-text-align: center;
 align-items: flex-start;
 background-image: url("imgb/b17.jpg");
-min-width:580px;
+min-width:49%;
 height:50vh;
 background-size: cover;
 padding: 30px;
@@ -296,12 +295,11 @@ padding-bottom:15px;
 }
 #banner .div2{
 display: flex;
-text-align: center;
 justify-content: center;
 align-items: flex-start;
 flex-direction: column;
 background-image: url("imgb/b10.jpg");
-min-width:580px;
+min-width:49%;
 height:50vh;
 background-size: cover;
 background-position:center;
@@ -747,6 +745,50 @@ line-height: 25px;
     font-weight: 600;
     color: #000;
 }
+.offer{
+font-size: 20px;
+padding-bottom: 0px;
+}
+.offer-detail{
+    font-size: 30px;
+    line-height: 32px;
+}
+.product_detail{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+@media(max-width:806px){
+    .div{
+        min-width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .div2{
+        min-width:100% !important ;
+    }
+    .offer{
+        font-size: 20px !important;
+        padding-bottom: 0px !important;
+        }
+        .offer-detail{
+            font-size: 30px !important;
+            line-height: 32px !important;
+        }
+        .product_detail{
+            font-size: 30px !important;
+            line-height: 30px !important;
+        }
+}
+@media (max-width:983px){
+    #about{
+   display: block !important;
+    }
+#about img{
+    width: 100% !important;
+     }
+     #about div {
+       padding-left: 0px !important;
+    }}
 @media (max-width:799px){
 .f1{
 padding: 40px 40px;
@@ -813,7 +855,7 @@ margin: 15px;
 
 }
 #services{
-height: 20vh;
+height: 40vh;
 }
 #banner .div{
 min-width: 100%;
@@ -841,7 +883,7 @@ padding: 40px;
     width: 50%;
 }
 }
-@media(max-width:477px) {
+@media(max-width:677px) {
 .f1{
     padding: 20px;
 }
@@ -867,7 +909,7 @@ h2{
     width: 100%;
 }
 #services{
-    height:40vh;
+    height:50vh;
 }
 #banner .div2{
     margin-top: 20px;
