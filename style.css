@@ -146,7 +146,7 @@ background-color: #dd7dbe;
 #feature .first:nth-child(6) h6{
 background-color: #78ddd7;
 }
-#text{
+#text1{
 text-align: center;
 }
 #text .pro{
@@ -973,3 +973,186 @@ align-items: flex-end;
     margin-bottom: 30px;
 }
 }
+.cart_value{
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 22px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-details {
+    padding: 10px;
+}
+
+.card-details h3 {
+    margin-top: 0;
+}
+
+.card-details p {
+    margin: 5px 0;
+}
+.pro {
+    width: 203px;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+}
+
+.pro img {
+    width: 100%;
+    height: auto;
+}
+
+.pro .title {
+    padding: 10px;
+    color: #1a1a1a;
+    font-size: 11px;
+}
+
+.pro .description {
+    padding: 0 10px;
+    color: #606063;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top:0px;
+}
+
+.pro .star {
+    display: flex;
+    padding: 0 10px;
+}
+
+.pro .star i {
+    color: rgb(243, 181, 25);
+    font-size: 14px;
+}
+
+.pro .price {
+    padding: 0 10px;
+    color: #088178;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pro .cart1 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 4px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.pro .cart1:hover {
+    background-color: #34bc5a;
+    color: white;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .card-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-container {
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+.content-wrapper{
+    text-align:left;
+}
+.img-wrapper{
+    width: 150px;
+    padding-top: 7px;
+}
+.parent-img-wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+#cardContainer .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.08);
+    
+    }
